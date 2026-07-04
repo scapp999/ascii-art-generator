@@ -1,6 +1,5 @@
 from PIL import Image
 
-# characters used to create the ASCII art
 ASCII_CHARS = ["@", "#", "S", "%", "?", "*", "+", ";", ":", ",", "."]
 
 
@@ -14,7 +13,6 @@ def resize_image(image, width=100):
 
 
 def convert_to_gray(image):
-    # convert image to grayscale
     return image.convert("L")
 
 
@@ -48,7 +46,6 @@ def main():
     result = ""
     i = 0
 
-    # create the final ASCII image
     while i < len(ascii_string):
         result = result + ascii_string[i:i + width] + "\n"
         i = i + width
