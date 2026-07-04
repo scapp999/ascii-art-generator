@@ -1,4 +1,4 @@
-A simple Python project that converts images into ASCII art.
+A simple Python project that converts images into ASCII art
 
 The program takes an image file, resizes it, converts it to grayscale and then transforms each pixel into ASCII characters to create a text version of the image
 
