@@ -9,7 +9,7 @@ The program takes an image file, resizes it, converts it to grayscale and then t
 4. Map each pixel to a character from a list of ASCII characters
 5. Print and save the final result into a text file
 
-## Requirements
+## Requirements 
 
 You need Python 3 and the Pillow library
 
